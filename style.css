@@ -1,7 +1,12 @@
-* {
-    border: 1px solid red;
-}
+/* * {
+   border: 1px solid red;
+   }
+ */
 
+@font-face{
+    font-family:'digital-7-mono';
+    src: url('digital-7.mono.ttf');
+}
 
 body {
     display: flex;
@@ -22,6 +27,7 @@ body {
     margin: 20px;
     flex: 1;
     background: #6a6551;
+    border-radius: 4px;
 }
 
 .visor {
@@ -29,6 +35,10 @@ body {
     height: 80%;
     border-radius: 10px;
     background: #5e573b;
+    font-family: 'digital-7-mono';
+    font-size: 90px;
+    padding: 0px 8px;
+    text-align: right;
 }
 
 .row {
@@ -37,12 +47,22 @@ body {
     
 }
 
+.func-btn {
+    background: #405b6e;
+}
+
+.onc-btn {
+    background: #a02d26;
+}
+
 button {
     margin: 16px 8px;
     border-radius: 5px;
     flex: 1;
     background: black;
     color: white;
+    font-size: 30px
+    
     /* #405b6e */
     /* a02d26 */
     /* d4c79d */
