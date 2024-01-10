@@ -1,0 +1,49 @@
+* {
+    border: 1px solid red;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calc {
+    display: flex;
+    width: 480px;
+    height: 600px;
+    flex-direction: column;
+    background: #d4c79d;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.visor-container {
+    margin: 20px;
+    flex: 1;
+    background: #6a6551;
+}
+
+.visor {
+    margin: 8px;
+    height: 80%;
+    border-radius: 10px;
+    background: #5e573b;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    
+}
+
+button {
+    margin: 16px 8px;
+    border-radius: 5px;
+    flex: 1;
+    background: black;
+    color: white;
+    /* #405b6e */
+    /* a02d26 */
+    /* d4c79d */
+}
